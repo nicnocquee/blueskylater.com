@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blueskylater.com"),
   title: "Bluesky Later",
   description: "An open source project to schedule posts to Bluesky",
   openGraph: {
